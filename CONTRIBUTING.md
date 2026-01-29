@@ -24,17 +24,21 @@ Please be respectful and constructive in all interactions.
 
 1. Fork the repository
 2. Create a feature branch from `main`:
+
    ```bash
    git checkout -b feat/your-feature-name
    ```
+
 3. Make your changes
 4. Ensure tests pass (if applicable)
 5. Commit using [Conventional Commits](https://www.conventionalcommits.org/):
-   ```
+
+   ```text
    feat: add new feature
    fix: resolve bug in component
    docs: update README
    ```
+
 6. Push and open a Pull Request
 
 ## Commit Message Format
@@ -50,14 +54,14 @@ Format: `<type>(<scope>): <description>`
 | `feat`     | A new feature                                    |
 | `fix`      | A bug fix                                        |
 | `docs`     | Documentation only changes                       |
-| `style`    | Code style changes (formatting, semicolons, etc) |
+| `style`    | Code style changes (formatting, semicolons, etc.) |
 | `refactor` | Code changes that neither fix bugs nor add features |
 | `test`     | Adding or updating tests                         |
 | `chore`    | Maintenance tasks, dependencies, configs         |
 
 ### Examples
 
-```
+```text
 feat: add user authentication
 feat(api): add pagination support
 fix: resolve memory leak in parser
