@@ -14,6 +14,4 @@ group:
       - source: CONTRIBUTING.md
         dest: CONTRIBUTING.md
     repos: |
-      # Add your repositories here, one per line:
-      # raul3k/rtrim
-      # raul3k/another-repo
+      raul3k/rtrim
